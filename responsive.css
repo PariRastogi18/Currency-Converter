@@ -1,0 +1,114 @@
+@media (max-width: 924px) {
+  #logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: small;
+    font-weight: bold;
+    width: auto;
+    margin-left: 5px;
+  }
+}
+
+/* For Tablet */
+@media (max-width: 899px) {
+  #min-container form label {
+    font-size: 15px;
+  }
+  #number {
+    font-size: 10px;
+  }
+  #currency {
+    font-size: 10px;
+  }
+  #container p {
+    margin-bottom: 35px;
+    font-size: large;
+  }
+  .table-head {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  #output table thead {
+    font-size: 12px;
+  }
+  #output table tbody tr td {
+    font-size: 10px;
+  }
+  #btn-submit {
+    font-size: medium;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 659px) {
+  #logo {
+    width: 100%;
+  }
+  nav ul li a {
+    display: none;
+  }
+}
+/* For Mobile */
+@media (max-width: 599px) {
+  #min-container form label {
+    font-size: 15px;
+  }
+  #number {
+    font-size: 10px;
+  }
+  #currency {
+    font-size: 10px;
+  }
+  #container p {
+    margin-bottom: 35px;
+    font-size: large;
+  }
+  .table-head {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  #output table thead {
+    font-size: 7px;
+  }
+  #output table tbody tr td {
+    font-size: 10px;
+  }
+  #btn-submit {
+    font-size: small;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 339px) {
+  #min-container {
+    height: 52vh;
+    margin-bottom: 20px;
+  }
+  #min-container form label {
+    font-size: 10px;
+  }
+  #number {
+    font-size: 5px;
+  }
+  #currency {
+    font-size: 5px;
+  }
+  #container p {
+    margin-bottom: 35px;
+    font-size: small;
+  }
+  .table-head {
+    font-size: 10px;
+  }
+  #output table thead {
+    font-size: 5.6px;
+  }
+  #output table tbody tr td {
+    font-size: 5px;
+  }
+  #btn-submit {
+    font-size: 0.6rem;
+    padding: 5px;
+  }
+}
